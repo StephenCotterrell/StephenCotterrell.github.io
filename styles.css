@@ -6,18 +6,18 @@ body {
     linear-gradient(to bottom, rgb(250,250,250) 1px, transparent 1px);
 }
 
-/* .custom-text-wrap { */
-/* word-wrap: break-word; */
-/* text-align: justify; */
-/* margin-right: 1em; */
-/* padding: 0.2rem; */
-/* } */
+/* .custom-text-wrap {
+word-wrap: break-word;
+text-align: justify;
+margin-right: 1em;
+padding: 0.2rem;
+} */
 
 .custom-paragraph-wrap {
 word-wrap: break-word;
 text-align: justify;
 margin-right: 1em;
-padding: 0.2rem;
+padding: 0.2rem;0
 padding-top: 0;
 padding-bottom: 0;
 }
@@ -39,11 +39,11 @@ max-width: 100%;
 height: auto;
 aspect-ratio: 16:9;
 }
-
-/* .main-content { */
-  /* padding-bottom: 100px; */
-  /* padding-top: 1em;*/
-/* } */
+/* 
+.main-content {
+  padding-bottom: 100px;
+  padding-top: 1em;
+} */
 
 .accordion {
   --bs-accordion-active-bg: grey;
