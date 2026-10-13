@@ -1,75 +1,52 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-    <head>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-      <link rel="icon" type="image/svg+xlm" sizes="32x32" href="/images/logoblack.svg">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      <link href="styles.css" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Stephen Cotterrell</title>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Stephen Cotterrell: a background in chemical engineering and data science, with a focus on backend software engineering.">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>About · Stephen Cotterrell</title>
+  <link rel="icon" href="images/logoblack.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="Stephen Cotterrell, home">
+      <img src="images/logoblack.svg" alt="" width="30" height="30">
+      <span>Stephen Cotterrell</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="about.html" aria-current="page">About</a>
+      <a href="https://github.com/StephenCotterrell">GitHub <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+    </nav>
+  </header>
 
-    <body>
-    <nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">
-          <img src="images/logowhite.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-          Stephen Cotterrell
-        </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="/about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/hobbies.html">Hobbies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog.html">Blog</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contact
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Email</a></li>
-                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/contact.html">Contact Page</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+  <main id="main" class="wrap">
+    <section class="about-layout" aria-labelledby="about-heading">
+      <div class="about-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> A little about me</p>
+        <h1 id="about-heading">An engineering<br><span>perspective.</span></h1>
+        <div class="prose">
+          <p class="intro">My background is in chemical engineering, including study at master’s level. I moved into technology and data science, and I’m now transitioning into backend software engineering.</p>
+          <p>I’m motivated by building products that are useful to people, and by understanding the engineering that makes those products dependable.</p>
+          <p>That’s the direction I’m taking my work: from analysing data to building the software behind it.</p>
         </div>
-      </nav>
-
-      <div class="main-content">
-        <div class="container mt-4">
-          <div class="row">
-              <div class="col-12 col-lg-8">
-                  <h1 class="text-start custom-text-wrap">Engineer & Business Analyst</h1>
-                  <h4 class="text-start custom-text-wrap">Test heading.</h4>
-                  <p class="custom-paragraph-wrap">Test Paragraph</p>
-              </div>
-              <div class="col-12 col-lg-4">
-                  <img src="/photos/LinkedInProfilePic2.jpg" class="rounded img-fluid" alt="Stephen standing in front of a building">
-              </div>
-          </div>
+        <a class="button" href="https://github.com/StephenCotterrell">Find me on GitHub <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
       </div>
-      </div>
-
-      <nav class="navbar navbar-dark fixed-bottom bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Stephen Cotterrell</a>
+      <figure class="portrait about-portrait">
+        <div class="portrait-frame">
+          <img src="photos/LinkedInProfilePic2.jpg" alt="Stephen Cotterrell standing outside a building" width="1920" height="2880">
         </div>
-      </nav>
-    </body>
+        <figcaption><span>Stephen Cotterrell</span><span class="caption-note">Data & software</span></figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Stephen Cotterrell</p>
+    <a href="index.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m6 6-6-6 6-6"/></svg> Back to home</a>
+    <a href="https://github.com/StephenCotterrell">GitHub <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+  </footer>
+</body>
 </html>
